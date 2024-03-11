@@ -592,7 +592,7 @@ function Playground() {
             id = assistantId[0]
         }
         const token = localStorage.getItem('token')
-        const project_base_url = `api/api/v1`
+        const project_base_url = `api/v1`
         setGenerateButtonLoading(true)
         let stream = false
         let debug = false
